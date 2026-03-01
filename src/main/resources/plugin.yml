@@ -1,0 +1,20 @@
+name: FireAndIceMacePlugin
+version: 1.0
+main: com.stormai.plugin.Main
+api-version: 1.21
+commands:
+  firemace:
+    description: Gives the player a Fire Mace or Ice Mace
+    usage: /firemace <fire|ice>
+    permission: firemace.give
+  icemace:
+    description: Gives the player an Ice Mace
+    usage: /icemace
+    permission: icemace.give
+permissions:
+  firemace.give:
+    description: Allows player to give themselves the Fire Mace
+    default: op
+  icemace.give:
+    description: Allows player to give themselves the Ice Mace
+    default: op
