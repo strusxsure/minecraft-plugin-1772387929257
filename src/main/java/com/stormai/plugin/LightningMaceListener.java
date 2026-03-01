@@ -2,8 +2,6 @@ package com.stormai.plugin;
 
 import org.bukkit.*;
 import org.bukkit.block.Block;
-import org.bukkit.block.data.Bisected;
-import org.bukkit.block.data.type.Switch;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
